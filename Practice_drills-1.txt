@@ -1,5 +1,5 @@
 
-mkdir -p hello/five/six/seven
+1. mkdir -p hello/five/six/seven
 mkdir -p hello/one/two/three/four
 touch hello/five/six/c.txt
 touch hello/five/six/seven/error.log
@@ -9,14 +9,14 @@ touch hello/one/two/d.txt
 touch hello/one/two/three/e.txt
 touch hello/one/two/three/four/access.log
 
-find hello -name "*.log" -type f -delete
+2. find hello -name "*.log" -type f -delete
 
-echo "Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others" > hello/one/a.txt
+3. echo "Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others" > hello/one/a.txt
 
-rm -rf hello/five
+4. rm -rf hello/five
 
-mv hello/one hello/uno
+5. mv hello/one hello/uno
 
-mv hello/uno/a.txt hello/uno/two/
+6. mv hello/uno/a.txt hello/uno/two/
 
 tree hello
