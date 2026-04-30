@@ -1,0 +1,6 @@
+1. wget https://www.gutenberg.org/files/68228/68228-0.txt -O harry.txt
+2. head -3 harry.txt
+3. tail -10 harry.txt
+4. grep -i -c Harry harry.txt
+5. sed -n 100,200p harry.txt
+6. grep -o -i -w '[a-z]\+' harry.txt | sort | uniq | wc -l
